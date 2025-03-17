@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h> // pre processor directive to include string functions
 // create a structure to store the student marks
 typedef struct {
     int M1,M2,M3,M4;
@@ -8,7 +8,7 @@ typedef struct {
     char student_name[50];
     } Student_Mark;
 
-//function declarations
+//function declarations / prototypes
 int print_students_names(Student_Mark *student_marks, int count);
 int print_students_marks(Student_Mark *student_marks, int count);
 
