@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int series();
+int series(); // your a poopie head
 int sum_func1();
 int sum_func2();
 int tax_cal1();
@@ -64,7 +64,7 @@ int tax_cal2(){
 void rand_alpha_gen(){
     char * alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for(int i = 1; i <= 50; i++){
-        int value = rand() % (26 - 1 + 1);
+        int value = rand() % 27;
         printf("\n %d = %c", i, alpha[value]);
     }
 }
